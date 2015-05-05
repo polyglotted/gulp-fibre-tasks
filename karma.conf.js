@@ -6,7 +6,7 @@ module.exports = function (config) {
   config.set({
     basePath: cwd,
     browsers: [
-      'Chrome'
+      process.env.TRAVIS ? 'Firefox' : 'Chrome'
     ],
     files: [
       'test/spec/**/*'
