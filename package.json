@@ -5,7 +5,7 @@
   "main": "gulpfile.js",
   "repository": {
     "type": "git",
-    "url": "git@gitlab.com/polyglotted/gulp-fibre-tasks.git"
+    "url": "git@github.com/polyglotted/gulp-fibre-tasks.git"
   },
   "author": "Ahmed Nuaman (ahmed@polyglotted.io)",
   "license": "MIT",
