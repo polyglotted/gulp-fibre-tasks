@@ -39,6 +39,7 @@
     "karma": "^0.12.31",
     "karma-chrome-launcher": "^0.1.8",
     "karma-coverage": "^0.3.1",
+    "karma-firefox-launcher": "^0.1.4",
     "karma-jasmine": "^0.3.5",
     "karma-sourcemap-loader": "^0.3.4",
     "karma-webpack": "https://github.com/ahmednuaman/karma-webpack.git",
