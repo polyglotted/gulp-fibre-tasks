@@ -43,3 +43,7 @@ Test and build your fibre (module) for node.
 
 #### `gulp karma:debug`
 In addition to the standard `gulp karma` the `:debug` flag keeps karma alive so you can debug it using the open browser; all the code uses sourcemaps so if you're using ES6 you should see some nice code.
+
+### License
+
+The MIT License (MIT)
