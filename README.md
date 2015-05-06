@@ -1,6 +1,8 @@
 # gulp-fibre-tasks
 > Gulp tasks for fibres (your modules)
 
+[![NPM](https://nodei.co/npm/gulp-fibre-tasks.png)](https://nodei.co/npm/gulp-fibre-tasks/)
+
 ## What is this?
 [Gulp](http://gulpjs.com/) is a great build tool and we wanted to have a nice place where we place all our gulp tasks could live happily. 
 
