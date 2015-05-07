@@ -4,7 +4,7 @@
 [![NPM](https://nodei.co/npm/gulp-fibre-tasks.png)](https://nodei.co/npm/gulp-fibre-tasks/)
 
 ## What is this?
-[Gulp](http://gulpjs.com/) is a great build tool and we wanted to have a nice place where we place all our gulp tasks could live happily. 
+[Gulp](http://gulpjs.com/) is a great build tool and we wanted to have a nice place where all our gulp tasks could live happily. 
 
 ## What's available?
 - Linting with [eslint](https://www.npmjs.com/package/gulp-eslint) and [scss-lint](https://www.npmjs.com/package/gulp-scss-lint)
