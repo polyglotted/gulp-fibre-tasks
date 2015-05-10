@@ -16,7 +16,7 @@ module.exports = function (config, gulp) {
   }
 
   function buildWeb () {
-    return gulp.src(config.path.all[0])
+    return gulp.src(pkg['main-es6'])
                .pipe(require('gulp-webpack')(_.assign(cfg, {
                  output: {
                    filename: pkg.name + '-[chunkhash].js'
