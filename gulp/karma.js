@@ -1,8 +1,7 @@
-var karma = require('karma').server,
-    path = require('path');
+var karma = require('karma').server;
 
 module.exports = function (config, gulp) {
-  var karmaConfig = path.join(config.base, 'karma.conf.js');
+  var karmaConfig = require('path').join(config.base, 'karma.conf.js');
   
   gulp.task('karma', function (cb) {
     karma.start({

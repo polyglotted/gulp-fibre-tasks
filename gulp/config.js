@@ -15,6 +15,7 @@ module.exports = {
     scss: ['src/**/*.scss'],
     json: ['package.json', 'bower.json'],
     dist: 'dist',
+    distCSS: 'dist/css/',
     lib: 'lib',
     jasmineTmp: '.jasmine-tmp'
   },

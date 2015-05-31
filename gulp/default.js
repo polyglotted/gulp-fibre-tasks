@@ -7,7 +7,8 @@ module.exports = function (config, gulp) {
       'jasmine'
     ]);
     gulp.watch(config.path.scss, [
-      'scsslint'
+      'scsslint',
+      'style'
     ]);
   });
 };

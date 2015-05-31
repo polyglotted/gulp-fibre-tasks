@@ -19,7 +19,7 @@ module.exports = function (config, gulp) {
         }))
         .pipe(babel())
         .pipe(gulp.dest(config.path.jasmineTmp))
-        .pipe(sourcemaps.write('.'))
+        .pipe(sourcemaps.write())
         .pipe(istanbul.hookRequire())
         .on('finish', function () {
           gulp.src(paths, {

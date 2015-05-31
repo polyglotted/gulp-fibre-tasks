@@ -8,10 +8,12 @@
     "url": "git@github.com/polyglotted/gulp-fibre-tasks.git"
   },
   "author": "Ahmed Nuaman (ahmed@polyglotted.io)",
-  "contributors": [{
-    "name": "David Haines",
-    "email": "david@polyglotted.io"
-  }],
+  "contributors": [
+    {
+      "name": "David Haines",
+      "email": "david@polyglotted.io"
+    }
+  ],
   "license": "MIT",
   "dependencies": {
     "babel": "^5.2.6",
@@ -50,5 +52,10 @@
     "lodash": "^3.8.0",
     "require-all": "^1.0.0",
     "webpack": "^1.8.10"
+  },
+  "devDependencies": {
+    "gulp-sass": "^2.0.1",
+    "node-bourbon": "^4.2.2",
+    "node-neat": "^1.7.1-beta1"
   }
 }
