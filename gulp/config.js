@@ -29,16 +29,16 @@ module.exports = {
         loader: 'isparta-instrumenter-loader'
       }],
       loaders: [{
-        test: /\.es6/, 
-        exclude: /node_modules/, 
-        loader: 'babel-loader?optional=runtime' 
+        test: /\.es6/,
+        exclude: /node_modules/,
+        loader: 'babel-loader?optional=runtime'
       }, {
         test: /\.html/,
         exclude: /(test|node_modules|bower_components)\//,
         loader: 'html-loader'
       }, {
         test: /\.json/,
-        exclude: /(test|node_modules|bower_components)\//,
+        exclude: /(test|bower_components)\//,
         loader: 'json-loader'
       }]
     },
