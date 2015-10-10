@@ -1,5 +1,5 @@
 var _ = require('lodash'),
-    gulpWebpack = require('gulp-webpack'),
+    webpackStream = require('webpack-stream'),
     fs = require('fs'),
     path = require('path'),
     pkg = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'package.json'))),
@@ -19,10 +19,10 @@ module.exports = function (config, gulp) {
   return {
     buildNode: function () {
       return gulp.src(main)
-                 .pipe(gulpWebpack(_.assign(cfg, {
+                 .pipe(webpackStream(_.assign(cfg, {
                    output: output,
                    target: 'node',
-                   externals: fs.readdirSync('node_modules').filter(function (x) { 
+                   externals: fs.readdirSync('node_modules').filter(function (x) {
                      return x !== '.bin';
                    })
                  })))
@@ -31,7 +31,7 @@ module.exports = function (config, gulp) {
 
     buildWeb: function () {
       return gulp.src(main)
-                 .pipe(gulpWebpack(_.assign(cfg, {
+                 .pipe(webpackStream(_.assign(cfg, {
                    output: output,
                    target: 'web'
                  })))
