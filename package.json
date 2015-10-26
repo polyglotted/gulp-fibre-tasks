@@ -14,7 +14,7 @@
       "email": "david@polyglotted.io"
     }
   ],
-  "license": "MIT",
+  "license": "Apache-2.0",
   "dependencies": {
     "babel": "^5.2.6",
     "babel-core": "^5.1.13",
