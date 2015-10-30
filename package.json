@@ -1,6 +1,6 @@
 {
   "name": "gulp-fibre-tasks",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "Gulp tasks for fibres",
   "main": "gulpfile.js",
   "repository": {
@@ -50,6 +50,7 @@
     "karma-sourcemap-loader": "^0.3.4",
     "karma-webpack": "https://github.com/ahmednuaman/karma-webpack.git",
     "lodash": "^3.8.0",
+    "node-neat": "^1.7.2",
     "require-all": "^1.0.0",
     "webpack": "^1.8.10",
     "webpack-stream": "^2.1.1"
