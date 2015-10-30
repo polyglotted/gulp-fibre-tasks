@@ -1,6 +1,6 @@
 {
   "name": "gulp-fibre-tasks",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Gulp tasks for fibres",
   "main": "gulpfile.js",
   "repository": {
@@ -30,6 +30,7 @@
     "gulp-git": "^1.2.1",
     "gulp-istanbul": "https://github.com/ahmednuaman/gulp-istanbul.git",
     "gulp-jasmine": "https://github.com/ahmednuaman/gulp-jasmine.git",
+    "gulp-sass": "^2.1.0",
     "gulp-scss-lint": "^0.1.12",
     "gulp-sequence": "^0.3.2",
     "gulp-sourcemaps": "^1.5.2",
